@@ -1,0 +1,437 @@
+{
+  "tracks": [
+    {
+      "track": "Frontend Development",
+      "levels": {
+        "beginner": [
+          {
+            "id": "fe-b1",
+            "title": "HTML & CSS Fundamentals",
+            "skills": [
+              "html",
+              "css"
+            ],
+            "hours": 20,
+            "resourceUrl": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+          },
+          {
+            "id": "fe-b2",
+            "title": "JavaScript Basics",
+            "skills": [
+              "js"
+            ],
+            "hours": 30,
+            "resourceUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+          },
+          {
+            "id": "fe-b3",
+            "title": "Responsive Design & Flexbox/Grid",
+            "skills": [
+              "css"
+            ],
+            "hours": 15,
+            "resourceUrl": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "fe-i1",
+            "title": "React Fundamentals",
+            "skills": [
+              "react",
+              "js"
+            ],
+            "hours": 35,
+            "prereq": [
+              "fe-b2"
+            ],
+            "resourceUrl": "https://react.dev/learn"
+          },
+          {
+            "id": "fe-i2",
+            "title": "State Management (Redux/Context)",
+            "skills": [
+              "react"
+            ],
+            "hours": 20,
+            "prereq": [
+              "fe-i1"
+            ],
+            "resourceUrl": "https://react.dev/learn/managing-state"
+          },
+          {
+            "id": "fe-i3",
+            "title": "REST API Integration",
+            "skills": [
+              "js",
+              "http"
+            ],
+            "hours": 15,
+            "prereq": [
+              "fe-b2"
+            ],
+            "resourceUrl": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "fe-a1",
+            "title": "Performance Optimization & Web Vitals",
+            "skills": [
+              "react",
+              "perf"
+            ],
+            "hours": 25,
+            "prereq": [
+              "fe-i1"
+            ],
+            "resourceUrl": "https://web.dev/explore/learn-core-web-vitals"
+          },
+          {
+            "id": "fe-a2",
+            "title": "Micro-frontends & SSR (Next.js)",
+            "skills": [
+              "react",
+              "nextjs"
+            ],
+            "hours": 30,
+            "prereq": [
+              "fe-i2"
+            ],
+            "resourceUrl": "https://nextjs.org/learn"
+          },
+          {
+            "id": "fe-a3",
+            "title": "Advanced Animation & Canvas",
+            "skills": [
+              "js",
+              "canvas"
+            ],
+            "hours": 20,
+            "prereq": [
+              "fe-i1"
+            ],
+            "resourceUrl": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial"
+          }
+        ]
+      }
+    },
+    {
+      "track": "Cybersecurity",
+      "levels": {
+        "beginner": [
+          {
+            "id": "cs-b1",
+            "title": "Networking Fundamentals",
+            "skills": [
+              "networking"
+            ],
+            "hours": 25,
+            "resourceUrl": "https://www.freecodecamp.org/news/computer-networking-full-course/"
+          },
+          {
+            "id": "cs-b2",
+            "title": "Intro to Linux & CLI",
+            "skills": [
+              "linux"
+            ],
+            "hours": 15,
+            "resourceUrl": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
+          },
+          {
+            "id": "cs-b3",
+            "title": "Security Basics (CIA Triad, Threats)",
+            "skills": [
+              "security"
+            ],
+            "hours": 10,
+            "resourceUrl": "https://www.cisa.gov/topics/cybersecurity-best-practices"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "cs-i1",
+            "title": "Web App Security (OWASP Top 10)",
+            "skills": [
+              "security",
+              "web"
+            ],
+            "hours": 30,
+            "prereq": [
+              "cs-b3"
+            ],
+            "resourceUrl": "https://owasp.org/www-project-top-ten/"
+          },
+          {
+            "id": "cs-i2",
+            "title": "Cryptography Essentials",
+            "skills": [
+              "crypto"
+            ],
+            "hours": 20,
+            "prereq": [
+              "cs-b3"
+            ],
+            "resourceUrl": "https://www.khanacademy.org/computing/computer-science/cryptography"
+          },
+          {
+            "id": "cs-i3",
+            "title": "Penetration Testing Basics",
+            "skills": [
+              "pentest"
+            ],
+            "hours": 25,
+            "prereq": [
+              "cs-b1"
+            ],
+            "resourceUrl": "https://www.hacksplaining.com/lessons"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "cs-a1",
+            "title": "Malware Analysis",
+            "skills": [
+              "malware"
+            ],
+            "hours": 35,
+            "prereq": [
+              "cs-i1"
+            ],
+            "resourceUrl": "https://www.malwaretech.com/beginner-malware-reversing-challenges"
+          },
+          {
+            "id": "cs-a2",
+            "title": "Cloud Security (AWS/IBM Cloud)",
+            "skills": [
+              "cloud",
+              "security"
+            ],
+            "hours": 30,
+            "prereq": [
+              "cs-i1"
+            ],
+            "resourceUrl": "https://www.ibm.com/training/cloud"
+          },
+          {
+            "id": "cs-a3",
+            "title": "CTF & Advanced Exploitation",
+            "skills": [
+              "pentest"
+            ],
+            "hours": 40,
+            "prereq": [
+              "cs-i3"
+            ],
+            "resourceUrl": "https://tryhackme.com/"
+          }
+        ]
+      }
+    },
+    {
+      "track": "UI/UX Design",
+      "levels": {
+        "beginner": [
+          {
+            "id": "ux-b1",
+            "title": "Design Principles & Color Theory",
+            "skills": [
+              "design"
+            ],
+            "hours": 15,
+            "resourceUrl": "https://www.coursera.org/learn/uva-darden-design-thinking-innovation"
+          },
+          {
+            "id": "ux-b2",
+            "title": "Figma Fundamentals",
+            "skills": [
+              "figma"
+            ],
+            "hours": 15,
+            "resourceUrl": "https://help.figma.com/hc/en-us/categories/360002051613-Getting-started"
+          },
+          {
+            "id": "ux-b3",
+            "title": "User Research Basics",
+            "skills": [
+              "research"
+            ],
+            "hours": 10,
+            "resourceUrl": "https://www.nngroup.com/articles/which-ux-research-methods/"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "ux-i1",
+            "title": "Wireframing & Prototyping",
+            "skills": [
+              "figma",
+              "prototyping"
+            ],
+            "hours": 20,
+            "prereq": [
+              "ux-b2"
+            ],
+            "resourceUrl": "https://www.figma.com/best-practices/guide-to-wireframing/"
+          },
+          {
+            "id": "ux-i2",
+            "title": "Design Systems",
+            "skills": [
+              "design"
+            ],
+            "hours": 20,
+            "prereq": [
+              "ux-b1"
+            ],
+            "resourceUrl": "https://www.designsystems.com/getting-started/"
+          },
+          {
+            "id": "ux-i3",
+            "title": "Usability Testing",
+            "skills": [
+              "research"
+            ],
+            "hours": 15,
+            "prereq": [
+              "ux-b3"
+            ],
+            "resourceUrl": "https://www.nngroup.com/articles/usability-testing-101/"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "ux-a1",
+            "title": "Interaction & Motion Design",
+            "skills": [
+              "motion"
+            ],
+            "hours": 25,
+            "prereq": [
+              "ux-i1"
+            ],
+            "resourceUrl": "https://www.freecodecamp.org/news/ui-animation/"
+          },
+          {
+            "id": "ux-a2",
+            "title": "Design Ops & Handoff to Dev",
+            "skills": [
+              "design",
+              "dev"
+            ],
+            "hours": 20,
+            "prereq": [
+              "ux-i2"
+            ],
+            "resourceUrl": "https://www.figma.com/best-practices/guide-to-developer-handoff/"
+          }
+        ]
+      }
+    },
+    {
+      "track": "Backend Development",
+      "levels": {
+        "beginner": [
+          {
+            "id": "be-b1",
+            "title": "Programming Fundamentals (JS/Java)",
+            "skills": [
+              "programming"
+            ],
+            "hours": 25,
+            "resourceUrl": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
+          },
+          {
+            "id": "be-b2",
+            "title": "Databases & SQL Basics",
+            "skills": [
+              "sql"
+            ],
+            "hours": 20,
+            "resourceUrl": "https://www.freecodecamp.org/learn/relational-database/"
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "be-i1",
+            "title": "REST API Design (Node/Express)",
+            "skills": [
+              "node",
+              "api"
+            ],
+            "hours": 25,
+            "prereq": [
+              "be-b1"
+            ],
+            "resourceUrl": "https://expressjs.com/en/starter/installing.html"
+          },
+          {
+            "id": "be-i2",
+            "title": "Spring Boot Fundamentals",
+            "skills": [
+              "java",
+              "springboot"
+            ],
+            "hours": 30,
+            "prereq": [
+              "be-b1"
+            ],
+            "resourceUrl": "https://spring.io/guides/gs/spring-boot"
+          },
+          {
+            "id": "be-i3",
+            "title": "NoSQL & Caching (MongoDB, Redis)",
+            "skills": [
+              "mongodb",
+              "redis"
+            ],
+            "hours": 20,
+            "prereq": [
+              "be-b2"
+            ],
+            "resourceUrl": "https://www.mongodb.com/docs/manual/tutorial/getting-started/"
+          }
+        ],
+        "advanced": [
+          {
+            "id": "be-a1",
+            "title": "Microservices Architecture",
+            "skills": [
+              "architecture"
+            ],
+            "hours": 35,
+            "prereq": [
+              "be-i1"
+            ],
+            "resourceUrl": "https://microservices.io/patterns/microservices.html"
+          },
+          {
+            "id": "be-a2",
+            "title": "Auth & Security (JWT, OAuth)",
+            "skills": [
+              "security",
+              "api"
+            ],
+            "hours": 20,
+            "prereq": [
+              "be-i1"
+            ],
+            "resourceUrl": "https://jwt.io/introduction"
+          },
+          {
+            "id": "be-a3",
+            "title": "System Design for Scale",
+            "skills": [
+              "architecture"
+            ],
+            "hours": 30,
+            "prereq": [
+              "be-a1"
+            ],
+            "resourceUrl": "https://github.com/donnemartin/system-design-primer"
+          }
+        ]
+      }
+    }
+  ]
+}
