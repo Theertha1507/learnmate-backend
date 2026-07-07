@@ -89,6 +89,4 @@ Deployed on **Render** (free tier). Environment variables are set directly in th
 - **Grounded reasoning** — every explanation from Granite is grounded in retrieved, prerequisite-filtered course data.
 - **Genuine replanning** — marking progress re-runs the full agent loop.
 
-## Author
 
-Theertha P Nair — B.Tech CSE, GITAM (Deemed to be University), Hyderabad
